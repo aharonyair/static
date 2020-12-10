@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .player-container {
+            width: 640px;
+            height: 360px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+<h1>title</h1>
+<div class="player-container"></div>
+<button style="font-size: 16px" onclick="render()">
+    Render
+</button>
+<textarea id="text" style="width: 100%; height: 500px"></textarea>
+<script type="text/javascript" src="https://yep.video.yahoo.com/oath/js/1/oath-player.js"></script>
+<script>
+  const playerConfig = {
+    "mediaItems": [{
+      "mimetype": "media/uplynk",
+      "id": "6fe02fc8903d44cca6843e3be5b68ecd",
+      "adConfig": {
+        "mimetype": "adplugin/vrm",
+        "value": {
+          "status": {
+            "code": "OK"
+          },
+          "schema": {
+            "id": "5aa66c1983b51f26364f37c3",
+            "pods": [{
+              "id": "5aa66c1983b51f26364f37c1",
+              "type": "PREROLL",
+              "calculated": true,
+              "slots": [{
+                "rids": [
+                  "5ade359bc673db38c7f14e5e",
+                  "5ade5b6dd33e15128f289d9f"
+                ],
+                "aeg": [
+                  [{
+                    "adEngineType": "VAST",
+                    "adTypes": [
+                      "Preroll"
+                    ],
+                    "extraProperties": {
+                      "minibar": "1"
+                    },
+                    "name": "Ade Test - Preroll",
+                    "rcid": "5512a39b09eab108e072da23",
+                    "rid": "5ade359bc673db38c7f14e5e",
+                    "url": "https://rtr.innovid.com/r1.5554946ab01d97.36996823;cb=%25%CACHEBUSTER%25%25",
+                    "usesShim": false,
+                    "vendor": "569fa372e4b0e41110650e54",
+                    "transactionId": "f4c04740-9a37-4809-a468-c80251770eed",
+                    "adxResult": "SHOW_ADS",
+                    "usid": "c2dc0332-349c-48b7-8f3d-8d82d2b764df",
+                    "auid": "2948598777606229655__TIME__2018-05-30+04:00:18",
+                    "slot": "AVAIL"
+                  }]
+                ],
+                "txid": "f4c04740-9a37-4809-a468-c80251770eed",
+                "slot": "AVAIL",
+                "adxResult": "SHOW_ADS",
+                "pid": "5aa66b10c74d47298686c7dd",
+                "bcid": "5aa66866b64129531a63718b",
+                "vid": "5aa668b0cc912f1cbd80c741",
+                "id": "5aa66d0788420b6dfca8afa9",
+                "type": "PREROLL"
+              }]
+            }]
+          },
+          "slot": "AVAIL",
+          "version": "2"
+        }
+      }
+    }],
+    "analytics": true,
+    "autoplay": true,
+    "mute": true
+  };
+
+  document.getElementById('text').value = JSON.stringify(localStorage.playerConfig || playerConfig);
+
+  function render() {
+    localStorage.playerConfig = document.getElementById('text').value;
+
+    console.log('document.getElementById(\'text\').innerText', document.getElementById('text').value)
+
+
+    const player = new OATH.VideoPlatform.VideoPlayer(JSON.parse(localStorage.playerConfig));
+    player.render('.player-container');
+  }
+
+</script>
+</body>
+</html>
+</body>
+</html>
