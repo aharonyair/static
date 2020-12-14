@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="999">
+        <InLine>
+            <AdSystem version="1.0">Yahoo Ad Manager Plus
+            </AdSystem>
+            <AdTitle>VAST 2.0 Linear Ad</AdTitle>
+            <Description>VAST 2.0 Linear Ad</Description>
+            <Error>
+                <![CDATA[https://pr-bucket.ybp.yahoo.com/vasterror/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_/[ERRORCODE]]]>
+            </Error>
+            <Impression>
+                <![CDATA[https://secure-gl.imrworldwide.com/cgi-bin/m?ca=nlsn106365&cr=996328&ce=stbrx&pc=999&ci=nlsnci237&am=4&at=view&rt=banner&st=image&r=6829380537426831785]]>
+            </Impression>
+            <Creatives>
+                <Creative AdID="999">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <Icons>
+                            <Icon program="AdChoices" width="100" height="15" xPosition="left" yPosition="top">
+                                <StaticResource
+                                        creativeType="image/png">
+                                    <![CDATA[https://s.yimg.com/ff/adchoices/icons/adchoices.png]]>
+                                </StaticResource>
+                                <IconClicks>
+                                    <IconClickThrough>
+                                        <![CDATA[https://info.yahoo.com/privacy/us/yahoo/relevantads.html]]>
+                                    </IconClickThrough>
+                                </IconClicks>
+                            </Icon>
+                        </Icons>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://pr-bucket.ybp.yahoo.com/eng/14/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <AdParameters>
+                            <![CDATA[{"viewableImpression":"https://beap-bc.yahoo.com/yv?sek=8523258286726414229:1533851231875&as=YAMPViewableImpressionPayload&av=2.12.0&ap=AgIUAgECzg8Czg8Czg8C0M95AhJ5YWhvby5jb20CAAIAAgECAQIBAgECAQIBAgECAAIAAgACAAIAAgACAAICAgACAAAAAAACAAIA&iv={pctview}&v={initview}&m=%MeasurementType%&r=%Timestamp%","duration":"00:00:30","trackingEvents":[{"eventType":"impression","value":"https://pr-bucket.ybp.yahoo.com/eng/1/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"},{"eventType":"creativeView","value":"https://pr-bucket.ybp.yahoo.com/eng/2/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"},{"eventType":"start","value":"https://pr-bucket.ybp.yahoo.com/eng/3/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"},{"eventType":"midpoint","value":"https://pr-bucket.ybp.yahoo.com/eng/5/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"},{"eventType":"firstQuartile","value":"https://pr-bucket.ybp.yahoo.com/eng/4/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"},{"eventType":"thirdQuartile","value":"https://pr-bucket.ybp.yahoo.com/eng/6/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"},{"eventType":"complete","value":"https://pr-bucket.ybp.yahoo.com/eng/7/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"}],"videoClicks":{"clickThrough":"https://www.angelsoft.com/coupons?utm_campaign=GPAS_AST_AWA_72222_FY_2018&utm_medium=Video&utm_source=Oath&utm_content=GPAS_AST_JustDad2018_30s_Video.mp4","clickTracking":["https://pr-bucket.ybp.yahoo.com/eng/8/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_"],"customClick":[]},"vastAdTagURI":"https://rtr.innovid.com/r1.5af1d99de9b2d8.99777843;cb=[timestamp]","mediaFiles":[{"width":16,"height":9,"scalable":true,"maintainAspectRatio":true,"apiFramework":"VPAID","value":"https://s-static.innovid.com/mobileapps/s/js/vpaid/1g7272?cb=724ba10f-dc18-f6a4-6763-357d90f77906&deviceid=&ivc=iv_geo_dma%3D514%26iv_geo_country%3DUS%26iv_geo_city%3DLockport%26iv_geo_state%3DNY%26iv_geo_zip%3D14094%26iv_geo_lat%3D43.1751%26iv_geo_lon%3D-78.7378","delivery":"progressive","type":"application/javascript","bitrate":-1}],"moatParams":{"campaignID":"999","lineItemID":"999","creativeID":"996328","publisherID":"10","sitePlacementID":"0","auctionID":"8523258286726414229:1533851231875","adRequestDomainName":"yahoo.com"},"error":"https://pr-bucket.ybp.yahoo.com/vasterror/imp/efgiQ8KcHVQDwNEmXhR2vBRKRWxBMA2Pz2srgqBTtPsr5CF4nGIz_LN-Eef6zQkZt5tx0_sY0RPxN3fu64oiaTYMrX5ETLRpgUxW3bCYZKi7aDiXsk6KFV5nkvfQVqoCpLIZnohj1dqc3uByMdaBpJp_tzlTT5iV-Nl4qKYOk_JUy2dOeUJSWSedkpKWpXQK6mkIL-vRBLjgWMole0JYw0eZB8leL3kXy8vBEnfSXM3QAu-cmvZ51oNO9JPchAlJiesHpgIOxmhzn3f9f_YE8DdLAbS89x9vp-wTKPfC29j5vDNC0vGp6_T9qHQptoawMV5nTh3rWL1kzJsGCT1iGq5-Fl7fQLM_/[ERRORCODE]"}]]>
+                        </AdParameters>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="application/x-shockwave-flash" width="16" height="9"
+                                       scalable="true"
+                                       maintainAspectRatio="true" apiFramework="VPAID">
+                                <![CDATA[https://s.yimg.com/ff/bucket2/vista.swf]]>
+                            </MediaFile>
+                            <MediaFile
+                                    delivery="progressive" type="application/javascript" width="16" height="9"
+                                    scalable="true"
+                                    maintainAspectRatio="true" apiFramework="VPAID">
+                                <![CDATA[https://s.yimg.com/ff/vista.js]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
