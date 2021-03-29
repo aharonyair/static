@@ -1,0 +1,8 @@
+<VAST version="2.0">
+    <Error>
+        <![CDATA[ https://sampleadtracker.com/noad?src=noad ]]>
+    </Error>
+    <Error>
+        <![CDATA[ https://sampleadtracker2.com/noad?src=noad ]]>
+    </Error>
+</VAST>
