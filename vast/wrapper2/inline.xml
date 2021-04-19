@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VAST version="2.0">
+    <Ad id="7654">
+        <InLine>
+            <AdSystem>Adap.tv OneSource</AdSystem>
+            <AdTitle>Creative Beacons from Wrapper Test</AdTitle>
+            <Impression>
+                <![CDATA[https:/log.adaptv.advertising.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=impression&level=0&a.rid=tc_007&5=123456]]></Impression>
+            <Impression>
+                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=adSuccess&level=0&a.rid=tc_007]]></Impression>
+            <Attempt>
+                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=attempt&level=0&a.rid=tc_007]]></Attempt>
+            <Creatives>
+                <Creative id="123123">
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=start&level=0&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="loaded">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=adLoaded&level=0&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=firstQuartile&level=0&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="progress" offset="00:00:02">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=progress1&level=0&a.rid=tc_020]]>
+                            </Tracking>
+                            <Tracking event="progress" offset="50%">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=progress2&level=0&a.rid=tc_020]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <MediaFiles>
+                            <MediaFile delivery="streaming" width="400" height="300" bitrate="100" type="video/mp4">
+                                <![CDATA[
+                                https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/mediafile/angelo_10_sec.mp444
+                                ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+    <Ad id="7655">
+        <InLine>
+            <AdSystem>Adap.tv OneSource</AdSystem>
+            <AdTitle>Creative Beacons from Wrapper Test</AdTitle>
+            <Impression>
+                <![CDATA[https:/log.adaptv.advertising.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=impression&level=0&a.rid=tc_007&5=123457]]></Impression>
+            <Impression>
+                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=adSuccess&level=0&a.rid=tc_007]]></Impression>
+            <Attempt>
+                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=attempt&level=0&a.rid=tc_007]]></Attempt>
+            <Creatives>
+                <Creative id="123124">
+                    <Linear>
+                        <Duration>00:00:15</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=start&level=0&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="loaded">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=adLoaded&level=0&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=firstQuartile&level=0&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="progress" offset="00:00:02">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=progress1&level=0&a.rid=tc_020]]>
+                            </Tracking>
+                            <Tracking event="progress" offset="50%">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=progress2&level=0&a.rid=tc_020]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <MediaFiles>
+                            <MediaFile delivery="streaming" width="400" height="300" bitrate="100" type="video/mp4">
+                                <![CDATA[
+                                https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/mediafile/angelo_10_sec.mp4
+                                ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

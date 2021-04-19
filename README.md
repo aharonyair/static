@@ -1,3 +1,3 @@
 # static
-Static Pages at https://aharoyairncohen.github.io/static/
+Static Pages at https://aharonyair.github.io/static/
 

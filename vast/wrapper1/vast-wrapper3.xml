@@ -1,0 +1,86 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.1" xsi:noNamespaceSchemaLocation="oxml.xsd">
+    <Ad>
+        <Wrapper>
+            <AdSystem>Ariel Ginsburg</AdSystem>
+            <BlockedAdCategories authority="iabtechlab.com">155,232,98,565</BlockedAdCategories>
+            <Error>
+                <![CDATA[
+https://tracking3.arielginsburg.com/error?err=[ERRORCODE]
+]]>
+            </Error>
+            <VASTAdTagURI>
+                <![CDATA[
+https://aharonyair.github.io/static/vast/wrapper1/vast-wrapper4.xml?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+            </VASTAdTagURI>
+            <Impression>
+                <![CDATA[
+https://tracking3.arielginsburg.com/impression?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/start?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/firstQuartile?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/midpoint?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/thirdQuartile?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/complete?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/pause?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/resume?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/mute?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/unmute?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="rewind">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/rewind?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                            <Tracking event="skip">
+                                <![CDATA[
+https://tracking3.arielginsburg.com/skip?ac=[ADCATEGORIES]&bac=[BLOCKEDADCATEGORIES]&t=[TIMESTAMP]
+]]>
+                            </Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+</VAST>

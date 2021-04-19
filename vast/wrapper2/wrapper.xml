@@ -1,0 +1,42 @@
+<VAST xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+    <Ad id="12345">
+        <Wrapper>
+            <AdSystem version="2.0">Adap.tv OneSource</AdSystem>
+            <VASTAdTagURI>
+                <![CDATA[https://aharonyair.github.io/static/vast/wrapper2/inline.xml]]>
+            </VASTAdTagURI>
+            <Impression>
+                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=impression&level=1&a.rid=tc_007]]></Impression>
+            <Impression>
+                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=adSuccess&level=1&a.rid=tc_007]]></Impression>
+            <Attempt>
+                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=attempt&level=1&a.rid=tc_007]]></Attempt>
+            <Creatives>
+                <Creative id="54321">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=start&level=1&beacon=1&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="start">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=start&level=1&beacon=2&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="loaded">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=adLoaded&level=1&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=firstQuartile&level=1&a.rid=tc_007]]>
+                            </Tracking>
+                            <Tracking event="progress" offset="00:00:02">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=progress1&level=1&a.rid=tc_020]]>
+                            </Tracking>
+                            <Tracking event="progress" offset="50%">
+                                <![CDATA[https://s3.amazonaws.com/vdb-cdn-files/dev/player-auto-tests/pixel.gif?event=progress2&level=1&a.rid=tc_020]]>
+                            </Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+</VAST>
