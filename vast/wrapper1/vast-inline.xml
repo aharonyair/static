@@ -14,7 +14,7 @@ https://tracking.arielginsburg.com/impression?ac=[ADCATEGORIES]&bac=[BLOCKEDADCA
 ]]>
             </Impression>
             <Creatives>
-                <Creative>
+                <Creative id="567-5" adId="789-5">
                     <Linear>
                         <Duration>00:00:15</Duration>
                         <TrackingEvents>

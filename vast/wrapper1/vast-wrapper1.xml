@@ -19,7 +19,7 @@ https://tracking1.arielginsburg.com/impression?ac=[ADCATEGORIES]&bac=[BLOCKEDADC
 ]]>
             </Impression>
             <Creatives>
-                <Creative>
+                <Creative id="567-1" adId="789-1">
                     <Linear>
                         <TrackingEvents>
                             <Tracking event="start">
